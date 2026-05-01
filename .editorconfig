@@ -6,3 +6,47 @@ end_of_line = lf
 charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Ustozlar sayti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Ustozlar platformasi</h1>
+    <nav>
+        <a href="#">Bosh sahifa</a>
+        <a href="#about">Biz haqimizda</a>
+        <a href="#contact">Aloqa</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Eng yaxshi ustozlarni toping</h2>
+    <p>Bu yerda tajribali ustozlar jamlangan</p>
+</section>
+
+<section id="about">
+    <h2>Biz haqimizda</h2>
+    <p>Bu sayt o‘quvchilar va ustozlarni bog‘lash uchun yaratilgan.</p>
+</section>
+
+<section id="contact">
+    <h2>Aloqa</h2>
+    <form>
+        <input type="text" placeholder="Ismingiz">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Xabar yozing"></textarea>
+        <button type="submit">Yuborish</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Ustozlar sayti</p>
+</footer>
+
+</body>
+</html>
